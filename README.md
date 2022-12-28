@@ -5,6 +5,9 @@ Original source converted and made to work in Lazarus. This is phase 1, the seco
 
 Example App is buggy as it is directly from the old Delphi code and made to work, will work on a new example app when time allows
 
+![alt text](https://github.com/shoraitek/lazDicom/blob/main/images/scr1.jpg?raw=true)
+
+
 
 License is MIT as this is meant as a hobby and no liability if you use and break it.
 
