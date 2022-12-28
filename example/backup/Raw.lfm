@@ -1,0 +1,189 @@
+object RawForm: TRawForm
+  Left = 309
+  Top = 127
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Open Raw'
+  ClientHeight = 289
+  ClientWidth = 171
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Position = poScreenCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 12
+    Top = 8
+    Width = 28
+    Height = 13
+    Caption = 'Width'
+  end
+  object Label2: TLabel
+    Left = 12
+    Top = 34
+    Width = 31
+    Height = 13
+    Caption = 'Height'
+  end
+  object Label3: TLabel
+    Left = 12
+    Top = 60
+    Width = 71
+    Height = 13
+    Caption = 'Slices [Frames]'
+  end
+  object Label4: TLabel
+    Left = 12
+    Top = 86
+    Width = 28
+    Height = 13
+    Caption = 'Offset'
+  end
+  object Label5: TLabel
+    Left = 12
+    Top = 112
+    Width = 63
+    Height = 13
+    Caption = 'Bits per voxel'
+  end
+  object SzLabel: TLabel
+    Left = 12
+    Top = 166
+    Width = 43
+    Height = 13
+    Caption = 'File size: '
+  end
+  object CancelBtn: TSpeedButton
+    Left = 20
+    Top = 262
+    Width = 72
+    Height = 22
+    Caption = 'Cancel'
+    OnClick = CancelBtnClick
+  end
+  object OKBtn: TSpeedButton
+    Tag = 1
+    Left = 93
+    Top = 262
+    Width = 72
+    Height = 22
+    Caption = 'View'
+    OnClick = OKBtnClick
+  end
+  object SpeedButton1: TSpeedButton
+    Tag = 2
+    Left = 68
+    Top = 228
+    Width = 48
+    Height = 22
+    Caption = 'DICOM'
+    OnClick = OKBtnClick
+  end
+  object SpeedButton2: TSpeedButton
+    Tag = 3
+    Left = 116
+    Top = 228
+    Width = 48
+    Height = 22
+    Caption = 'Interfile'
+    OnClick = OKBtnClick
+  end
+  object SpeedButton3: TSpeedButton
+    Tag = 4
+    Left = 20
+    Top = 228
+    Width = 48
+    Height = 22
+    Caption = 'Analyze'
+    OnClick = OKBtnClick
+  end
+  object Label6: TLabel
+    Left = 12
+    Top = 210
+    Width = 75
+    Height = 13
+    Caption = 'Convert raw to: '
+  end
+  object WidEdit: TSpinEdit
+    Left = 92
+    Top = 4
+    Width = 73
+    Height = 22
+    MaxLength = 5
+    MaxValue = 99999
+    MinValue = 1
+    TabOrder = 0
+    Value = 256
+    OnChange = WidEditChange
+  end
+  object HtEdit: TSpinEdit
+    Left = 92
+    Top = 30
+    Width = 73
+    Height = 22
+    MaxLength = 5
+    MaxValue = 99999
+    MinValue = 1
+    TabOrder = 1
+    Value = 256
+    OnChange = WidEditChange
+  end
+  object SliceEdit: TSpinEdit
+    Left = 92
+    Top = 56
+    Width = 73
+    Height = 22
+    MaxLength = 5
+    MaxValue = 99999
+    MinValue = 1
+    TabOrder = 2
+    Value = 1
+    OnChange = WidEditChange
+  end
+  object OffsetEdit: TSpinEdit
+    Left = 92
+    Top = 82
+    Width = 73
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 3
+    Value = 0
+    OnChange = WidEditChange
+  end
+  object BitsEdit: TSpinEdit
+    Left = 92
+    Top = 108
+    Width = 73
+    Height = 22
+    Increment = 4
+    MaxValue = 24
+    MinValue = 8
+    TabOrder = 4
+    Value = 8
+    OnChange = WidEditChange
+  end
+  object LittleEndCheck: TCheckBox
+    Left = 10
+    Top = 134
+    Width = 121
+    Height = 23
+    Alignment = taLeftJustify
+    Caption = 'Little-endian'
+    TabOrder = 5
+  end
+  object PlanarRGBCheck: TCheckBox
+    Left = 10
+    Top = 182
+    Width = 121
+    Height = 23
+    Alignment = taLeftJustify
+    Caption = 'Planar RGB'
+    TabOrder = 6
+    Visible = False
+  end
+end

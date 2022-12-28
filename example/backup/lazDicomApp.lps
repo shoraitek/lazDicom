@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="lazDicomApp.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\udefinetypes.pas"/>
+        <UnitName Value="uDefineTypes"/>
+        <TopLine Value="93"/>
+        <CursorPos X="3" Y="104"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\udecompress.pas"/>
+        <UnitName Value="uDecompress"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="37" Y="95"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1213"/>
+        <CursorPos X="15" Y="1227"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\rasterimage.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="460"/>
+        <CursorPos X="3" Y="464"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ulsjpeg.pas"/>
+        <UnitName Value="uLsJpeg"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="33"/>
+        <CursorPos X="63" Y="711"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\lazdicom.pas"/>
+        <UnitName Value="lazDicom"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="32" Y="9"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\ulsjpeg.pas"/>
+        <UnitName Value="uLsJpeg"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="707"/>
+        <CursorPos X="84" Y="731"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\uanalyze.pas"/>
+        <UnitName Value="uAnalyze"/>
+        <EditorIndex Value="9"/>
+        <CursorPos X="41" Y="8"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\udicom.pas"/>
+        <UnitName Value="uDicom"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="6350"/>
+        <CursorPos X="36" Y="6362"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="689"/>
+        <CursorPos X="10" Y="700"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\components\lazutils\uitypes.pas"/>
+        <UnitName Value="UITypes"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="27"/>
+        <CursorPos X="3" Y="39"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\rtl-objpas\src\inc\system.uitypes.pp"/>
+        <UnitName Value="System.UITypes"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="6" Y="16"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2238" Column="65" TopLine="2226"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2237" Column="42" TopLine="2226"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2238" Column="39" TopLine="2227"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2242" Column="42" TopLine="2231"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2243" Column="39" TopLine="2232"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2251" Column="33" TopLine="2240"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2598" Column="9" TopLine="2584"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2608" Column="15" TopLine="2594"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2614" Column="18" TopLine="2601"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2631" Column="15" TopLine="2617"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2640" Column="15" TopLine="2626"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2649" Column="11" TopLine="2636"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2660" Column="11" TopLine="2643"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2676" Column="16" TopLine="2658"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2697" Column="19" TopLine="2686"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="2719" Column="6" TopLine="2697"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="3414" Column="28" TopLine="3403"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="3445" Column="28" TopLine="3434"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="3694" Column="29" TopLine="3684"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="3724" Column="28" TopLine="3714"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="3958" Column="30" TopLine="3947"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="3977" Column="32" TopLine="3966"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="4509" Column="29" TopLine="4498"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="4923" Column="83" TopLine="4912"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="6131" Column="34" TopLine="6120"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="6133" Column="39" TopLine="6122"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="6137" Column="43" TopLine="6126"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="6146" Column="35" TopLine="6135"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="6337" Column="36" TopLine="6326"/>
+      </Position>
+      <Position>
+        <Filename Value="..\udicom.pas"/>
+        <Caret Line="6338" Column="37" TopLine="6327"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

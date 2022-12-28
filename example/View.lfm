@@ -1,0 +1,143 @@
+object ViewForm: TViewForm
+  Left = 490
+  Top = 276
+  Width = 196
+  Height = 145
+  BorderIcons = [biSystemMenu]
+  Caption = 'ViewForm'
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label7: TLabel
+    Left = 6
+    Top = 23
+    Width = 27
+    Height = 13
+    Caption = 'Black'
+  end
+  object Label1: TLabel
+    Left = 6
+    Top = 48
+    Width = 28
+    Height = 13
+    Caption = 'White'
+  end
+  object SliceLabel: TLabel
+    Left = 8
+    Top = 73
+    Width = 23
+    Height = 13
+    Caption = 'Slice'
+  end
+  object Image1: TPGImage
+    Left = 42
+    Top = 4
+    Width = 132
+    Height = 13
+    BorderStyle = bsNone
+    Ctl3D = False
+    ParentCtl3D = False
+    TabOrder = 0
+    PicBoxColor = clBtnFace
+    PicBoxCursor = crDefault
+    PicBoxDragCursor = crDrag
+    PicBoxDragMode = dmManual
+    PicBoxParentColor = True
+    PicBoxParentShowHint = True
+    PicBoxShowHint = False
+    PicBoxTag = 0
+    ZoomFactor = 1
+  end
+  object BlackSlide: TRxSlider
+    Left = 34
+    Top = 18
+    Width = 145
+    Height = 23
+    Increment = 1
+    MinValue = 1
+    MaxValue = 254
+    EdgeSize = 4
+    Options = []
+    TabOrder = 1
+    TabStop = False
+    Value = 1
+    OnChange = BlackSlideChange
+  end
+  object WhiteSlide: TRxSlider
+    Left = 34
+    Top = 43
+    Width = 145
+    Height = 23
+    Increment = 1
+    MinValue = 1
+    MaxValue = 255
+    EdgeSize = 4
+    Options = []
+    TabOrder = 2
+    TabStop = False
+    Value = 254
+    OnChange = BlackSlideChange
+  end
+  object SliceSlider: TRxSlider
+    Left = 36
+    Top = 68
+    Width = 145
+    Height = 23
+    Increment = 1
+    MinValue = 1
+    EdgeSize = 4
+    Options = []
+    TabOrder = 3
+    TabStop = False
+    Value = 1
+  end
+  object SchemeDrop: TComboBox
+    Left = 6
+    Top = 92
+    Width = 53
+    Height = 21
+    Style = csDropDownList
+    ItemHeight = 13
+    Items.Strings = (
+      'W&B'
+      'B&W'
+      'Metal'
+    )
+    TabOrder = 4
+  end
+  object ScaleDrop: TComboBox
+    Left = 58
+    Top = 92
+    Width = 51
+    Height = 21
+    Style = csDropDownList
+    ItemHeight = 13
+    Items.Strings = (
+      'x0.5'
+      'x1.0'
+      'x1.5'
+      'x2.0'
+      'x2.5'
+      'x3.0'
+    )
+    TabOrder = 5
+  end
+  object ProDrop: TComboBox
+    Left = 110
+    Top = 92
+    Width = 69
+    Height = 21
+    Style = csDropDownList
+    ItemHeight = 13
+    Items.Strings = (
+      'Square'
+      'Scaled'
+    )
+    TabOrder = 6
+  end
+end

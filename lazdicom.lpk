@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="lazDicom"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="ulazdicomdefinetypes.pas"/>
+        <UnitName Value="ulazdicomdefinetypes"/>
+      </Item>
+      <Item>
+        <Filename Value="ulazdicomdecompress.pas"/>
+        <UnitName Value="ulazdicomdecompress"/>
+      </Item>
+      <Item>
+        <Filename Value="ulazdicomlsjpeg.pas"/>
+        <UnitName Value="ulazdicomlsjpeg"/>
+      </Item>
+      <Item>
+        <Filename Value="ulazdicomanalyze.pas"/>
+        <UnitName Value="ulazdicomanalyze"/>
+      </Item>
+      <Item>
+        <Filename Value="ulazdicomdicom.pas"/>
+        <UnitName Value="ulazdicomdicom"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

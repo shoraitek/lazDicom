@@ -1,0 +1,237 @@
+object MDIChild: TMDIChild
+  Left = 739
+  Height = 408
+  Top = 300
+  Width = 898
+  ClientHeight = 383
+  ClientWidth = 898
+  DesignTimePPI = 120
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'System'
+  Menu = MainMenu1
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnResize = FormResize
+  Position = poDefaultPosOnly
+  LCLVersion = '2.2.4.0'
+  Visible = True
+  object ScrollBox1: TScrollBox
+    Left = 0
+    Height = 383
+    Top = 0
+    Width = 898
+    HorzScrollBar.Page = 25
+    VertScrollBar.Page = 361
+    Align = alClient
+    BorderStyle = bsNone
+    ClientHeight = 383
+    ClientWidth = 898
+    TabOrder = 0
+    object Image: TImage
+      Cursor = crCross
+      Left = 0
+      Height = 361
+      Top = 0
+      Width = 25
+      OnMouseDown = ImageMouseDown
+      OnMouseMove = ImageMouseMove
+      OnMouseUp = ImageMouseUp
+      Stretch = True
+    end
+  end
+  object Memo1: TMemo
+    Left = 0
+    Height = 383
+    Hint = 'F3 to hide'
+    Top = 0
+    Width = 898
+    Align = alClient
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Courier New'
+    ParentFont = False
+    ParentShowHint = False
+    ReadOnly = True
+    ScrollBars = ssBoth
+    ShowHint = True
+    TabOrder = 1
+    Visible = False
+  end
+  object MainMenu1: TMainMenu
+    Left = 56
+    Top = 48
+    object EditMenu: TMenuItem
+      Caption = 'Edit'
+      GroupIndex = 3
+      object CopyItem: TMenuItem
+        Caption = 'Copy'
+        GroupIndex = 2
+        ShortCut = 16451
+        OnClick = CopyItemClick
+      end
+    end
+    object OptionsSettingsMenu: TMenuItem
+      Caption = 'Image'
+      GroupIndex = 3
+      Hint = 'Image color related commands'
+      object Lowerslice1: TMenuItem
+        Caption = 'Lower slice'
+        Enabled = False
+        GroupIndex = 2
+        ShortCut = 112
+        OnClick = Lowerslice1Click
+      end
+      object Higherslice1: TMenuItem
+        Tag = 1
+        Caption = 'Higher slice'
+        Enabled = False
+        GroupIndex = 2
+        ShortCut = 113
+        OnClick = Lowerslice1Click
+      end
+      object Mosaic1: TMenuItem
+        Caption = 'Mosaic'
+        Enabled = False
+        GroupIndex = 2
+        object N1x11: TMenuItem
+          Tag = 1
+          Caption = '1x1'
+          GroupIndex = 23
+          ShortCut = 16433
+          OnClick = N1x11Click
+        end
+        object N2x21: TMenuItem
+          Tag = 2
+          Caption = '2x2'
+          GroupIndex = 23
+          ShortCut = 16434
+          OnClick = N1x11Click
+        end
+        object N3x31: TMenuItem
+          Tag = 3
+          Caption = '3x3'
+          GroupIndex = 23
+          ShortCut = 16435
+          OnClick = N1x11Click
+        end
+        object N4x41: TMenuItem
+          Tag = 4
+          Caption = '4x4'
+          GroupIndex = 23
+          ShortCut = 16436
+          OnClick = N1x11Click
+        end
+        object Other1: TMenuItem
+          Tag = 5
+          Caption = 'Other...'
+          GroupIndex = 23
+          ShortCut = 16437
+          OnClick = N1x11Click
+        end
+      end
+      object N2: TMenuItem
+        Caption = '-'
+        GroupIndex = 2
+      end
+      object OptionsImgInfoItem: TMenuItem
+        Caption = '&View Image Information ...'
+        GroupIndex = 2
+        Hint = 'Show image name and size'
+        ShortCut = 114
+        OnClick = OptionsImgInfoItemClick
+      end
+      object SelectZoom1: TMenuItem
+        Caption = 'Select Zoom'
+        GroupIndex = 2
+        ShortCut = 115
+        OnClick = SelectZoom1Click
+      end
+      object ContrastAutobalance1: TMenuItem
+        Caption = 'Contrast Autobalance'
+        GroupIndex = 2
+        ShortCut = 116
+        OnClick = ContrastAutobalance1Click
+      end
+      object ContrastSuggested1: TMenuItem
+        Caption = 'Contrast Suggested'
+        GroupIndex = 2
+        ShortCut = 117
+        OnClick = ContrastSuggested1Click
+      end
+      object ContrastCTPresets1: TMenuItem
+        Caption = 'Contrast CT Presets'
+        GroupIndex = 2
+        object Bone1: TMenuItem
+          Caption = 'Bone'
+          OnClick = CTpreset
+        end
+        object Chest1: TMenuItem
+          Tag = 1
+          Caption = 'Chest'
+          OnClick = CTpreset
+        end
+        object Lung1: TMenuItem
+          Tag = 2
+          Caption = 'Lung'
+          OnClick = CTpreset
+        end
+      end
+      object Smooth1: TMenuItem
+        Caption = 'Smooth'
+        GroupIndex = 2
+        ShortCut = 83
+        OnClick = Smooth1Click
+      end
+      object Overlay1: TMenuItem
+        Caption = 'Overlay'
+        Enabled = False
+        GroupIndex = 2
+        object None1: TMenuItem
+          Caption = 'None'
+          Checked = True
+          GroupIndex = 231
+          RadioItem = True
+          OnClick = None1Click
+        end
+        object White1: TMenuItem
+          Caption = 'White'
+          GroupIndex = 231
+          RadioItem = True
+          OnClick = None1Click
+        end
+        object Black1: TMenuItem
+          Caption = 'Black'
+          GroupIndex = 231
+          RadioItem = True
+          OnClick = None1Click
+        end
+      end
+    end
+    object StudyMenu: TMenuItem
+      Caption = 'Study'
+      Enabled = False
+      GroupIndex = 3
+      object Previous1: TMenuItem
+        Caption = 'Previous'
+        ShortCut = 189
+        OnClick = Previous1Click
+      end
+      object Next1: TMenuItem
+        Tag = 1
+        Caption = 'Next'
+        ShortCut = 187
+        OnClick = Previous1Click
+      end
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 200
+    OnTimer = Timer1Timer
+    Left = 152
+    Top = 24
+  end
+end

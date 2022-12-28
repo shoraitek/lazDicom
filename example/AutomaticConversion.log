@@ -1,0 +1,4 @@
+ Progress: Found all unit files
+ezDicom.dpr Note: Replaced unit "Windows" with "LCLIntf, LCLType, LMessages" in uses section.
+ezDicom.dpr(9,17) Note: Added MODE Delphi syntax modifier after unit name.
+ Fatal: Conversion Aborted.
